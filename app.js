@@ -78,8 +78,8 @@ function blockChainRequest(url) {
     current_time();
     updateBuyRate(currency);
     updateSellRate(currency);
-});
-};
+  })
+}
 
 function runProgramWithInterval() {
   createOrUpdate();
@@ -89,7 +89,7 @@ function runProgramWithInterval() {
 function createOrUpdate() {
   blockChainRequest(apiUrl);
   updateDataSet();
-};
+}
 
 function current_time(){
   timeStamp = new Date().toISOString();
