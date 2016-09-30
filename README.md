@@ -6,7 +6,7 @@ Initially I wrote MVP and the first version of the program has been written with
 
 #### Description
 This program pulls data from external API and pushes this data onto Geckoboard using Geckoboard's API.
-This program is designed to use a Blockchain API. However program can be easily refactored to be able use another API.
+This program is designed to use a Blockchain API. However program can be easily refactored to be able to use another API.
 
 #### Manual
 In the beginning you need to register at ```geckoboard.com``` to gain your API key. Your key can be stored in .env file to avoid publishing it on Github and etc. Install ```dotenv```, create ```.env``` in your app's folder, then store Geckoboard API key as key-value pair ```API_KEY = YOUR_KEY``` in ```.env```. Next you need to install Geckoboard API. In command line run ```npm install geckoboard```.
