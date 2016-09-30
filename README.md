@@ -1,7 +1,7 @@
 # Integrations Engineer Coding Challenge #
 
 #### Technology
-To write this program I chose Node.js/JS. I feel more comfortable with Ruby/Rails, but I am curious to learn Node.js and JS. Thus, if I have a choice in a language, platform in a challenge I often choose Node.js/JS.
+To write this program I chose Node.js/JS. I feel more comfortable with Ruby/Rails, but I am curious to learn Node.js and JS. Thus, if in a challenge I have a choice of languages, platforms I often choose Node.js/JS.
 Initially I wrote MVP and the first version of the program has been written within one file ```app.js```. After I decided to refactor the program and rewrote it using modules. I see the advantage of using modules - it makes a program flexible and structured.
 
 #### Description
