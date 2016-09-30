@@ -25,3 +25,5 @@ All it does it makes a simple request to Blockchain API and passes response body
 
 #### Future development
 I tried to automatically generate many datasets from response body for all currencies at the same time. I spent a few hours to make it work. All I've done is that I can create dataset for all currencies with predefined names, however, for some reason it stores only value of last key in response body object.
+
+#### (Link to dashboard) [https://objcoding.geckoboard.com/dashboards/DC4047A4A66CEDBF]
