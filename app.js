@@ -1,11 +1,9 @@
-var parsedBody;
-var timeStamp;
-var buyRate;
-var sellRate;
-
+var currency = "USD";
+var dataSetName = currency.toLowerCase() +'_rates';
 var createOrUpdate = require('./lib/createOrUpdate.js').createOrUpdate;
+var apiUrl = "https://blockchain.info/ticker";
 
-(function runProgramWithInterval() {
-  createOrUpdate();
+(function () {
+  createOrUpdate(apiUrl, dataSetName, currency);
   setInterval(createOrUpdate, 60000);
 })();
