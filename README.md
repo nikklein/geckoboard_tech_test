@@ -23,7 +23,4 @@ Since this moment you are able to add widgets onto Geckoboard :sparkles :metal
 In the program I use "iffy"(IIFE) to run the code. It calls function which creates or updates dataset, and a function ```setInterval``` which calls the same function with predefined interval.
 All it does it makes a simple request to Blockchain API and passes response body into function ```updateRates```. This function in turn updates rates and converts money to "coins" and passes all values into ```updateDataSet``` function. This function is a "wrapper" for Geckoboard API function which doesn't accepts arguments by default. Now data has been stored and sent to Geckoboard.
 
-#### Future development
-I tried to automatically generate many datasets from response body for all currencies at the same time. I spent a few hours to make it work. All I've done is that I can create dataset for all currencies with predefined names, however, for some reason it stores only value of last key in response body object. It would be cool if your API function accepts arguments to build datasets automatically. 
-
 #### [Link to the Geckoboard dashboard] (https://objcoding.geckoboard.com/dashboards/DC4047A4A66CEDBF)
